@@ -1,85 +1,52 @@
-
-.open-sans-normal{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 /* Shared Styles */
-.text-primary{
-    color: #FD6E0A;
-}
-.dark-1{
-    color: #181818;
-}
-.dark-2{
-    color: #474747;
-}
-.dark-3{
-    color: #757575;
-}
-.btn-primary{
-    background-color: #FD6E0A;
-    border: none;
-    border-radius: 5px;
-    padding: 18px 35px;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
-/* header */
-.header{
-    background-image: url('../images/developer.png'), url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-}
-/* Nav Styles */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 200px;
-}
-.nav-title{
+.logo h2{
     font-size: 45px;
     font-weight: 800;
 }
-nav ul{
-    display: flex;
-    align-items: center;
+.color-orange{
+    color: #FD6E0A;
 }
-nav ul li{
-    list-style: none;
-    margin-right: 50px;
-}
-nav li a{
-    text-decoration: none;
+.btn{
+    background-color: #FD6E0A;
+    color: white;
     font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
 }
-/* banner Styles */
-.banner{
+
+/* Main Style */
+.header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 35px 0 200px;
 }
-.banner-content{
-    width: 585px;
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
 }
-.banner-greetings{
-    font-size: 45px;
-    font-weight: 500;
-}
-.banner-title{
-    font-size: 85px;
-    font-weight: bold;
-}
-.banner-description{
-    font-size: 18px;
-    font-weight: 400;
-}
-.banner-profile-pic{
-    width: 580px;
+nav .menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
 }
